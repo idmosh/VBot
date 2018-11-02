@@ -39,7 +39,7 @@ SCOPE = 140489887
 FLOOD_INTERVAL = 1
 
 # Данные для базы данных PostgreSQL или MySQL
-DATABASE_SETTINGS = ("dbname", "host", 3306, "user", "password")
+DATABASE_SETTINGS = ("dbname", "host", port, "user", "password")
 DATABASE_DRIVER = "mysql"  #  Может принимать значения: mysql, postgresql
 DATABASE_CHARSET = 'utf8mb4'  # utf8mb4, latin1 и т.д.
 
@@ -76,7 +76,7 @@ BLACKLIST_MESSAGE = "Вы не можете писать боту! Вы нахо
 WHITELIST = ()
 WHITELIST_MESSAGE = "Вы не можете писать боту! Для этого надо быть в белом списке!"
 
-# Список администраторов
+# Список администраторов (vk id)
 ADMINS = (1, )
 
 # Загружаются только указанные плагины или все, при отсутствии значения
